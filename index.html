@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mnémo</title>
+<script>
+  // Mémo s'appelle désormais Mnémo : /memo/... devient /mnemo/...
+  location.replace(location.pathname.replace(/^\/memo(\/|$)/, '/mnemo/') + location.search + location.hash);
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;padding:24px">
+<p>Mémo s'appelle désormais Mnémo : <a href="https://blinytz.github.io/mnemo/">blinytz.github.io/mnemo</a></p>
+</body>
+</html>
